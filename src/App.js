@@ -1,6 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { MessageCircle, X, Send, School, Phone, Mail, MapPin, ChevronRight, ChevronLeft } from 'lucide-react';
 
+import checkImage from '/Users/bhuvanmaddela/Desktop/gowtham/my-app/src/check.jpeg';
+import digital from '/Users/bhuvanmaddela/Desktop/gowtham/my-app/src/digital.jpeg';
+import sport from '/Users/bhuvanmaddela/Desktop/gowtham/my-app/src/football.jpg';
+import welcome from '/Users/bhuvanmaddela/Desktop/gowtham/my-app/src/bus.jpg';
+import chem from '/Users/bhuvanmaddela/Desktop/gowtham/my-app/src/chemistry.jpg'
+import stu from '/Users/bhuvanmaddela/Desktop/gowtham/my-app/src/digit.jpg'
+import kids from '/Users/bhuvanmaddela/Desktop/gowtham/my-app/src/kids.jpg'
+import kido from '/Users/bhuvanmaddela/Desktop/gowtham/my-app/src/kido.jpg'
 // Card components
 const Card = ({ children, className = '' }) => (
   <div className={`bg-white rounded-lg shadow-lg ${className}`}>{children}</div>
@@ -20,17 +28,17 @@ const GowthamSchoolWebsite = () => {
 
   const slides = [
     {
-      image: "https://via.placeholder.com/1200x500",
+      image: checkImage ,
       title: "Welcome to Gowtham High School",
       subtitle: "Nurturing Excellence, Building Future Leaders"
     },
     {
-      image: "https://via.placeholder.com/1200x500",
+      image: digital,
       title: "State-of-the-Art Facilities",
       subtitle: "Modern Infrastructure for Modern Education"
     },
     {
-      image: "https://via.placeholder.com/1200x500",
+      image: sport,
       title: "Holistic Development",
       subtitle: "Academics, Sports, and Cultural Activities"
     }
@@ -69,7 +77,7 @@ const GowthamSchoolWebsite = () => {
       <div className="bg-tide text-white py-2">
         <div className="container mx-auto px-4 flex justify-between items-center text-sm">
           <div className="flex gap-4">
-            <span className="flex items-center gap-1"><Phone className="h-4 w-4" /> +91 9121577177</span>
+            <span className="flex items-center gap-1"><Phone className="h-4 w-4" /> +91 123-456-7890</span>
             <span className="flex items-center gap-1"><Mail className="h-4 w-4" /> info@gowthamschool.com</span>
           </div>
           <div className="flex gap-4">
@@ -173,7 +181,7 @@ const GowthamSchoolWebsite = () => {
               <h2 className="text-3xl font-bold text-goldenrod mb-4">Welcome to Gowtham High School</h2>
               <p className="text-gray-600 mb-4">
                 Founded with a vision to provide quality education, Gowtham High School has been 
-                a center of academic excellence since 1995. Our institution focuses on holistic 
+                a center of academic excellence. Our institution focuses on holistic 
                 development of students through a perfect blend of academics, sports, and 
                 co-curricular activities.
               </p>
@@ -197,7 +205,7 @@ const GowthamSchoolWebsite = () => {
               </div>
             </div>
             <div>
-              <img src="https://via.placeholder.com/600x400" alt="School Building" className="rounded-lg shadow-lg" />
+              <img src={welcome} alt="School Building" className="rounded-lg shadow-lg" />
             </div>
           </div>
         </div>
@@ -241,10 +249,10 @@ const GowthamSchoolWebsite = () => {
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center text-goldenrod mb-12">Campus Life</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <img src="https://via.placeholder.com/300x300" alt="Event 1" className="rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300" />
-            <img src="https://via.placeholder.com/300x300" alt="Event 2" className="rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300" />
-            <img src="https://via.placeholder.com/300x300" alt="Event 3" className="rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300" />
-            <img src="https://via.placeholder.com/300x300" alt="Event 4" className="rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300" />
+            <img src={chem}  alt="Event 1" className="rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300" />
+            <img src={kids} alt="Event 2" className="rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300" />
+            <img src={kido} alt="Event 3" className="rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300" />
+            <img src={stu} alt="Event 4" className="rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300" />
           </div>
         </div>
       </section>
@@ -257,7 +265,7 @@ const GowthamSchoolWebsite = () => {
               <h3 className="text-xl font-bold mb-4">Contact Us</h3>
               <p className="flex items-center gap-2 mb-2">
                 <MapPin className="h-4 w-4" />
-                123 Education Street, Hyderabad
+                Mallapur, Hyderabad
               </p>
               <p className="flex items-center gap-2 mb-2">
                 <Phone className="h-4 w-4" />
