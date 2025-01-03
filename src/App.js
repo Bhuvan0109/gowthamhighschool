@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { MessageCircle, X, Send, School, Phone, Mail, MapPin, ChevronRight, ChevronLeft } from 'lucide-react';
 
-import checkImage from '/Users/bhuvanmaddela/Desktop/gowtham/my-app/src/check.jpeg';
-import digital from '/Users/bhuvanmaddela/Desktop/gowtham/my-app/src/digital.jpeg';
-import sport from '/Users/bhuvanmaddela/Desktop/gowtham/my-app/src/football.jpg';
-import welcome from '/Users/bhuvanmaddela/Desktop/gowtham/my-app/src/bus.jpg';
-import chem from '/Users/bhuvanmaddela/Desktop/gowtham/my-app/src/chemistry.jpg'
-import stu from '/Users/bhuvanmaddela/Desktop/gowtham/my-app/src/digit.jpg'
-import kids from '/Users/bhuvanmaddela/Desktop/gowtham/my-app/src/kids.jpg'
-import kido from '/Users/bhuvanmaddela/Desktop/gowtham/my-app/src/kido.jpg'
+import checkImage from './images/check.jpeg';
+import digital from './images/digital.jpeg';
+import sport from './images/football.jpg';
+import welcome from './images/bus.jpg';
+import chem from './images/chemistry.jpg'
+import stu from './images/digit.jpg'
+import kids from './images/kids.jpg'
+import kido from './images/kido.jpg'
 // Card components
 const Card = ({ children, className = '' }) => (
   <div className={`bg-white rounded-lg shadow-lg ${className}`}>{children}</div>
