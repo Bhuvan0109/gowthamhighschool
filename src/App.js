@@ -52,7 +52,7 @@ const GowthamSchoolWebsite = () => {
 
   const newsUpdates = [
     "Admissions open for Academic Year 2025-26",
-    "Special Gifts for Parents who took Admission by April-2025",
+    "Special Gifts for Parents who took Admission by April-2025 to 2026",
     "Free Summer Camp for Childrens 2025-2026",
     "Please visit your New Campus and High Tech Classrooms"
   ];
